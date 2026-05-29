@@ -11,7 +11,7 @@ const app = express()
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://fixly-frontend.vercel.app'  // ← URL real de Vercel
+    'fixly-frontendu.vercel.app'  // ← URL real de Vercel
   ],
   credentials: true
 }))
